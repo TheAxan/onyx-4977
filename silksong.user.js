@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Silksong Place
-// @namespace    https://www.reddit.com/r/HollowKnight/
+// @name         Beheaded place
+// @namespace    https://www.reddit.com/r/deadcells/
 // @version      0.6.2
 // @description  try to take over r/place!
-// @author       OnyX_#4977
+// @author       OnyX_#4977 - Axan#9348 adaptation
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
@@ -26,6 +26,8 @@ if (window.top !== window.self) {
         makeOverlay("Silksong",     "https://raw.githubusercontent.com/onyx-4977/onyx-4977/main/SilksongTemplate.png", 525, 390, 225, 343);
         makeOverlay("HollowKnight", "https://github.com/onyx-4977/onyx-4977/raw/main/HollowKnightTemplate.png",        560, 350, 1300, 50);
         makeOverlay("Radiance",     "https://github.com/onyx-4977/onyx-4977/raw/main/RadianceTemplate.png",            470, 525, 247,1339);
+        
+        makeOverlay('Beheaded',     '', 40, 70, 250, 1444)
 
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByClassName("bottom-controls")[0].appendChild(
         (function () {

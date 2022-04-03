@@ -27,7 +27,7 @@ if (window.top !== window.self) {
         makeOverlay("HollowKnight", "https://github.com/onyx-4977/onyx-4977/raw/main/HollowKnightTemplate.png",        560, 350, 1300, 50);
         makeOverlay("Radiance",     "https://github.com/onyx-4977/onyx-4977/raw/main/RadianceTemplate.png",            470, 525, 247,1339);
         
-        makeOverlay('Beheaded',     '', 40, 70, 250, 1444)
+        makeOverlay('Beheaded',     'https://github.com/TheAxan/onyx-4977/blob/main/beheaded.png', 40, 70, 250, 1444)
 
         document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByClassName("bottom-controls")[0].appendChild(
         (function () {
